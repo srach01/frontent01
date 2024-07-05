@@ -6,9 +6,7 @@ import Footer from "@/app/components/footer"
 export default function Home() {
   return (
     <>
-    <Carousel />
-    <Card />
-    <Footer />
+    <h1><center>Contact page</center></h1>
     </>
   );
 }

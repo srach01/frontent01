@@ -21,24 +21,24 @@ export default function Navbar() {
         <div className="flex" id="navbarSupportedContent">
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             <li className="nav-item">
-              <a className="nav-link active" aria-current="page" href="./about">
+              <Link className="nav-link active"s href={'/'}>
                 Home
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link active" aria-current="page" href="">
+              <Link className="nav-link active" aria-current="page" href={'/about'}>
                 About
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link active" aria-current="page" href="">
+              <Link className="nav-link active" aria-current="page" href={"/service"}>
                 Service
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link active" aria-current="page" href="">
+              <Link className="nav-link active" aria-current="page" href={'./contact'}>
                 Contact
-              </a>
+              </Link>
             </li>
           </ul>
             <button className="btn btn-outline-primary" type="submit">
