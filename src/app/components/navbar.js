@@ -5,7 +5,7 @@ export default function Navbar() {
     <nav className="navbar navbar-expand-lg bg-light">
       <div className="container-fluid">
         <a className="navbar-brand" href="#">
-          LEGO
+        Premier League
         </a>
         <button
           className="navbar-toggler"
@@ -44,9 +44,9 @@ export default function Navbar() {
             <button className="btn btn-outline-primary" type="submit">
               SignIn
             </button>
-            <button className="btn btn-outline-success" type="submit">
+            <Link className="btn btn-outline-success" type="submit" href={'./signup'}>
               SignUp
-            </button>
+            </Link>
         </div>
       </div>
     </nav>
